@@ -1,0 +1,10 @@
+replicaCount: 2
+
+image:
+  repository: sandipdas23/devops-cicd-demo
+  tag: 1.1
+  pullPolicy: Always
+
+service:
+  type: NodePort
+  port: 8080
